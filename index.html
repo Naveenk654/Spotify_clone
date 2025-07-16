@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify - Apne Gane</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li class="brand">
+        <img src="covers/logo.png" alt="Logo" />
+        Spotify
+      </li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Song List Section -->
+    <div class="songlist">
+      <h1>YO YO HONEY PAJI</h1>
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img src="covers/image1.jpg" alt="Millionare" />
+          <span>Millionare</span>
+          <span class="songListplay">
+            <span class="timestamp">1:00
+              <i id="0" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/2.jpg" alt="Angrezi-Beat" />
+          <span>Angrezi-Beat</span>
+          <span class="songListplay">
+            <span class="timestamp">3:30
+              <i id="1" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/3.jpg" alt="Brown Rang" />
+          <span>BrownRang</span>
+          <span class="songListplay">
+            <span class="timestamp">2:58
+              <i id="2" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/4.jpg" alt="Dope Shope" />
+          <span>Dope-Shope</span>
+          <span class="songListplay">
+            <span class="timestamp">3:14
+              <i id="3" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/5.jpg" alt="Blue Eyes" />
+          <span>Blue-Eyes</span>
+          <span class="songListplay">
+            <span class="timestamp">3:41
+              <i id="4" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songItem">
+          <img src="covers/6.jpg" alt="Jatt Mehkma" />
+          <span>Jatt-Mehkma</span>
+          <span class="songListplay">
+            <span class="timestamp">3:15
+              <i id="5" class="songItemPlay fas fa-play-circle"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Artist Cover Section -->
+    <div class="artist-cover">
+      <img src="covers/photo.png" alt="Yo Yo Honey Singh" />
+      <p>Artist: Yo Yo Honey Singh</p>
+    </div>
+
+  </div>
+
+  <!-- Music Controls -->
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100" />
+    
+    <div class="icon">
+      <i class="fas fa-3x fa-step-backward" id="previousPlay"></i>
+      <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+      <i class="fas fa-3x fa-step-forward" id="forwardPlay"></i>
+    </div>
+
+    <div class="songInfo">
+      <img src="covers/ICU.gif" alt="GIF" id="gif" />
+      <span id="masterSongName">Millionare</span>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
